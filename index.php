@@ -490,6 +490,27 @@ include_once $OHPFolder . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
                 endSelector.append('<option value="' + value + '">' + value + ' 節</value>');
             });
         }
+
+        $('*[data-target="worship"]').trigger("click");
+        $('*[data-target="worship"]').trigger("click");
+        $('*[data-target="worship"]').trigger("click");
+        $('*[data-target="worship"]').trigger("click");
+        $('*[data-target="hymn1"]').trigger("click");
+        $('*[data-target="hymn2"]').trigger("click");
+        $('*[data-target="outlines"]').trigger("click");
+        $('*[data-target="outlines"]').trigger("click");
+        $('*[data-target="outlines"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="report"]').trigger("click");
+        $('*[data-target="intercession"]').trigger("click");
+        $('*[data-target="intercession"]').trigger("click");
+        $('*[data-target="hymn3"]').trigger("click");
     });
 </script>
 </html>

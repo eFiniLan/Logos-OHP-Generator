@@ -53,7 +53,7 @@ foreach ($types as $type) {
                 $fp = fopen($localFolder . $type . DIRECTORY_SEPARATOR . $filename, 'wb');
                 fwrite($fp, $remoteContent);
             } else {
-                echo "Unable to update $type - $filename...\n";
+                echo "Unable to update $type - $filename (remote file next exists?)...\n";
             }
         }
     }
